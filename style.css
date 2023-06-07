@@ -1,0 +1,155 @@
+.body {
+  margin: 0; /* Setting margin to 0 */
+  padding: 0; /* Setting padding to 0 */
+  font-family: Arial, sans-serif; /* Setting font family */
+}
+
+.navbar {
+  background-color: #ffffff; /* Setting background color */
+  height: 50px; /* Setting height */
+  display: flex; /* Displaying as flex container */
+  justify-content: space-around; /* Aligning items with space around */
+  align-items: center; /* Aligning items in center */
+  padding: 0 20px; /* Setting padding */
+}
+
+.nav-links{
+    flex:9; /* Setting flex property */
+}
+
+.cart-buttons{
+    display: flex; /* Displaying as flex container */
+    justify-content:flex-end; /* Aligning items to flex-end */
+    flex:1; /* Setting flex property */
+}
+
+.navbar ul {
+  list-style-type: none; /* Removing list style */
+  margin: 0; /* Setting margin to 0 */
+  padding: 0; /* Setting padding to 0 */
+  display: flex; /* Displaying as flex container */
+  justify-content: space-evenly; /* Aligning items with space evenly */
+  align-items: center; /* Aligning items in center */
+}
+
+.navbar li {
+  margin-right: 15px; /* Setting margin-right */
+}
+
+.navbar li a {
+  text-decoration: none; /* Removing text decoration */
+  color: #000000; /* Setting text color */
+  font-weight: bold; /* Setting font weight */
+}
+
+.navbar .icon {
+  display: flex; /* Displaying as flex container */
+  align-items: center; /* Aligning items in center */
+  margin-right: 10px; /* Setting margin-right */
+}
+
+.navbar .icon img {
+  width: 20px; /* Setting width */
+  height: 20px; /* Setting height */
+  margin-right: 5px; /* Setting margin-right */
+}
+
+.header {
+  position: relative; /* Setting position to relative */
+}
+
+.header-content {
+  background-image: url("image src/img1.jpg"); /* Setting background image */
+  background-size: cover; /* Setting background size to cover */
+  background-position: center; /* Setting background position to center */
+  height: 500px; /* Setting height */
+  display: flex; /* Displaying as flex container */
+  align-items: center; /* Aligning items in center */
+}
+
+.rectangle-box {
+    margin-left: 10vw; /* Setting margin-left */
+  height: 100px; /* Setting height */
+  width: 350px; /* Setting width */
+  background-color: #f71070; /* Setting background color */
+  padding: 20px; /* Setting padding */
+  opacity: calc(60%); /* Setting opacity */
+}
+
+.rectangle-box h1 {
+  font-size: 24px; /* Setting font size */
+  margin-bottom: 10px; /* Setting margin-bottom */
+  color: white; /* Setting text color */
+}
+
+.rectangle-box p {
+  font-size: 14px; /* Setting font size */
+  margin-bottom: 0; /* Setting margin-bottom */
+  color: white; /* Setting text color */
+}
+
+.header2 {
+  position: relative; /* Setting position to relative */
+  background: linear-gradient(to right, #eb0acd, #e4f219db); /* Setting background gradient */
+  color: #ffffff; /* Setting text color */
+  padding: 50px; /* Setting padding */
+  text-align: center; /* Setting text alignment */
+}
+
+.header2 h1 {
+  font-size: 36px; /* Setting font size */
+  margin-bottom: 20px; /* Setting margin-bottom */
+}
+
+.card-container {
+  display: flex; /* Displaying as flex container */
+  justify-content: space-evenly; /* Aligning items with space evenly */
+  margin-top: 50px; /* Setting margin-top */
+}
+
+.card {
+  background-color: #ffffff; /* Setting background color */
+  width: 20%; /* Setting width */
+  height: 400px; /* Setting height */
+  padding: 20px; /* Setting padding */
+  border-top-right-radius: 40px; /* Setting border radius */
+  border-bottom-left-radius: 40px; /* Setting border radius */
+  margin-right: 20px; /* Setting margin-right */
+}
+
+.card:last-child {
+  margin-right: 0; /* Setting margin-right */
+}
+
+.card img {
+  width: 100%; /* Setting width */
+  height: 140px; /* Setting height */
+  margin-bottom: 20px; /* Setting margin-bottom */
+}
+
+.card h2 {
+  font-size: 24px; /* Setting font size */
+  margin-bottom: 10px; /* Setting margin-bottom */
+  color: #000000; /* Setting text color */
+}
+
+.card p {
+  font-size: 14px; /* Setting font size */
+  margin-bottom: 0; /* Setting margin-bottom */
+  color: #000000; /* Setting text color */
+}
+
+.order-button {
+  margin-top: 50px; /* Setting margin-top */
+}
+
+.order-button button {
+  background-color: #ffffff7d; /* Setting background color */
+  border: none; /* Removing border */
+  color: #000000; /* Setting text color */
+  padding: 10px 20px; /* Setting padding */
+  font-size: 16px; /* Setting font size */
+  font-weight: 800; /* Setting font weight */
+  border-radius: 20px; /* Setting border radius */
+  cursor: pointer; /* Setting cursor style */
+}
