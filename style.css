@@ -125,6 +125,7 @@
   width: 100%; /* Setting width */
   height: 140px; /* Setting height */
   margin-bottom: 20px; /* Setting margin-bottom */
+  border-top-right-radius: 50px;  /* Setting border radius */
 }
 
 .card h2 {
